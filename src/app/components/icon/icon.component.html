@@ -1,0 +1,13 @@
+<div *ngIf = "iconName">
+    <div *ngIf = "iconName == 'empty'">
+        <fa-icon [icon] = "faPen" class="icon"></fa-icon>
+    </div>
+
+    <div *ngIf = "iconName == 'cross'">
+        <fa-icon [icon] = "faTimes" class="icon text-warning"></fa-icon>
+    </div>
+
+    <div *ngIf = "iconName == 'circle'">
+        <fa-icon [icon] = "faCircle" class="icon text-info"></fa-icon>
+    </div>
+</div>
